@@ -18,6 +18,8 @@ int main()
 
     mahasiswa& ref = mhs;       //Pointer Reference refMhs
     ref.nim = 2;                //Member Acces Operator
+
+    mahasiswa* pMhs = 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
