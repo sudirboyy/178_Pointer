@@ -13,7 +13,8 @@ void mahasiswa::showNim() { //Implementasi method diluar class
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs{ 1 };         //Object mhs
+    mhs.showNim()              // Member Acces Operator
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
