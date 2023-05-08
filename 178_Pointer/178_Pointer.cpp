@@ -19,7 +19,11 @@ int main()
     mahasiswa& ref = mhs;       //Pointer Reference refMhs
     ref.nim = 2;                //Member Acces Operator
 
-    mahasiswa* pMhs = 
+    mahasiswa* pMhs = &mhs;     //Pointer Reference pMhs
+    pMhs->nim = 3              //Arrow Operator
+    mhs.showNim();
+    system("pause");
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
