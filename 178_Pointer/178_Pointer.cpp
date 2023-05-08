@@ -15,6 +15,9 @@ int main()
 {
     mahasiswa mhs{ 1 };         //Object mhs
     mhs.showNim()              // Member Acces Operator
+
+    mahasiswa& ref = mhs;       //Pointer Reference refMhs
+    ref.nim = 2;                //Member Acces Operator
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
