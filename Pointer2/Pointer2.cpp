@@ -11,7 +11,12 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa* mhs = new mahasiswa{ 1 };
+    mhs->nim = 2;
+    mhs->showNim();
+    delete mhs;
+    system("pause");
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
