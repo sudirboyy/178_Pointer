@@ -8,9 +8,15 @@ private:
 public:
     friend void setNama(mahasiswa& a, string);
 };
+
+void setNama(mahasiswa& a, string pNama) {
+    a.nama = pNama;
+    cout << "Nama :" << a.nama;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
